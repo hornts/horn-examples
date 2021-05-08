@@ -1,4 +1,15 @@
-import { Module } from '@hornts/common';
+import { Module, Injectable } from '@hornts/common';
 
-@Module()
+
+@Injectable()
+export class Service {}
+
+@Module({
+  injectables: [Service]
+})
+export class Test{}
+
+@Module({
+  imports: [Test]
+})
 export class AppModule {}
