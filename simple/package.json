@@ -12,7 +12,7 @@
     "@hornts/core": "0.0.1",
     "@hornts/http-express": "0.0.1",
     "pino": "6.11.3",
-    "pino-pretty": "4.7.1"
+    "pino-pretty": "4.8.0"
   },
   "devDependencies": {
     "ts-node": "9.1.1",
