@@ -8,10 +8,10 @@
     "start": "ts-node src/index.ts"
   },
   "dependencies": {
-    "@hornts/common": "0.0.1",
-    "@hornts/core": "0.0.1",
-    "@hornts/http-express": "0.0.1",
-    "pino": "6.11.3",
+    "@hornts/common": "0.0.2",
+    "@hornts/core": "0.0.2",
+    "@hornts/http-express": "0.0.2",
+    "pino": "6.13.1",
     "pino-pretty": "5.0.1"
   },
   "devDependencies": {
