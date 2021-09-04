@@ -4,9 +4,9 @@ import { ExpressAdapter } from '@hornts/http-express';
 import { AppModule } from './app.module';
 
 async function bootstrap() {
-  const app = await HornFactory.create(AppModule, new ExpressAdapter());
+  const app = await HornFactory.create(AppModule, { http: new ExpressAdapter() });
 
-  app.listen(8080);
+  await app.listen(8080);
 }
 
 bootstrap();

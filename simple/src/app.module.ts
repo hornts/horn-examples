@@ -1,15 +1,8 @@
-import { Module, Injectable } from '@hornts/common';
+import { Module } from '@hornts/common';
 
-
-@Injectable()
-export class Service {}
+import { UsersModule } from './users/users.module';
 
 @Module({
-  injectables: [Service]
-})
-export class Test{}
-
-@Module({
-  imports: [Test]
+  imports: [UsersModule]
 })
 export class AppModule {}
