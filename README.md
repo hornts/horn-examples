@@ -2,7 +2,7 @@
 
 🦄 [**Horn**](https://github.com/hornts/horn) is an extendable web-framework with IoC (Inversion of Control) container inside.
 
-This repo provides examples of Horn usage.
+This repo provides examples of **Horn** usage.
 
 ## Documentation
 
