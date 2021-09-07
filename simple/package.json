@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@hornts/common": "0.0.4",
-    "@hornts/core": "0.0.4",
+    "@hornts/core": "0.0.5",
     "@hornts/http-express": "0.0.4",
     "pino": "6.13.1",
     "pino-pretty": "5.0.1"
